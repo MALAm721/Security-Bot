@@ -8,7 +8,7 @@ client.on("ready", async () => {
   console.log(`${client.guilds.cache.size} Servers .`);
   console.log(`${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
-  client.user.setActivity("s!help | Security Is Here", {
+  client.user.setActivity("T!help | Security Is Here", {
     type: "PLAYING"
   });
 });
@@ -53,30 +53,30 @@ client.on("message", async message => {
       .setTitle(`The Command List Of Bot`)
       .setDescription(`
 **General Commands**
-\`s!user \`
-\`s!bot list \`
-\`s!invite \`
-\`s!support \`
-\`s!ping \`
-\`s!say \`
-\`s!time \`
+\`T!user \`
+\`T!bot list \`
+\`T!invite \`
+\`T!support \`
+\`T!ping \`
+\`T!say \`
+\`T!time \`
 ⚠️ **Admin Commands**
-\`s!ban \` 
-\`s!kick \` 
-\`s!lock \`
-\`s!unlock \`
-\`s!lock all \`
-\`s!unlock all \`
-\`s!clear \`
-\`s!mute \`
-\`s!unmute \`
-\`s!slowmode\` 
-\`s!prefix \`
+\`T!ban \` 
+\`T!kick \` 
+\`T!lock \`
+\`T!unlock \`
+\`T!lock all \`
+\`T!unlock all \`
+\`T!clear \`
+\`T!mute \`
+\`T!unmute \`
+\`T!slowmode\` 
+\`T!prefix \`
 🔰 **Security Commands**
-\`s!settings \`
-\`s!log \`
-\`s!stats \`
-\`s!logs \`
+\`T!settings \`
+\`T!log \`
+\`T!stats \`
+\`T!logs \`
 \`anti bot\` **on / off**
 \`anti prone\` **on**
 \`anti hack\` **on**
@@ -770,5 +770,5 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("تــــۆکین لێرە دانێ");
-////////////Coded By ANO
+client.login("MTAwODcyOTIxMjExMjM0NzEzNg.Gz0gTS.CHEiTASp_WHSQOWZW9q-srJaukXlyOzirBFs6g");
+////////////Coded By Suhaeb
